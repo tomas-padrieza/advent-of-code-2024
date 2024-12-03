@@ -39,9 +39,6 @@ const goB = (input: string) => {
     }
   })
 
-  console.log(doesAndDonts)
-  console.log(validSnips)
-
   const total = validSnips
     .map((snip) => {
       const multis = [
